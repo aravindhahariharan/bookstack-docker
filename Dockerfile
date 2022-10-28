@@ -70,7 +70,7 @@ WORKDIR /var/www/bookstack
 # www-data
 USER 33
 
-VOLUME ["/var/www/bookstack/public/uploads","/var/www/bookstack/storage/uploads"]
+#VOLUME ["/var/www/bookstack/public/uploads","/var/www/bookstack/storage/uploads"]
 
 ENV RUN_APACHE_USER=www-data \
     RUN_APACHE_GROUP=www-data
